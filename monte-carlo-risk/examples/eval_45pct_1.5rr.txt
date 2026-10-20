@@ -1,0 +1,16 @@
+Strategy
+  Win rate 45%, reward:risk 1.5, risk $250 per trade
+  Expectancy:          +0.125 R per trade (before costs)
+  Break-even win rate: 40.0%
+  Full Kelly fraction: 8.3% of equity
+
+Over 200 trades, 20,000 simulations
+  Final P&L      median $     5,250   5th pct $    -1,625   95th pct $    12,750
+  Max drawdown   median $     3,235   95th pct $     6,215   99th pct $     8,055
+  Losing streak  median    8   95th pct   12   worst   23
+
+Evaluation rules: target +$3,000, trailing DD $2,000, daily loss $1,000 (2 trades/day)
+  Pass 52.9%   Fail 47.0%   Unresolved after 200 trades 0.1%
+  Median trades to pass: 42
+
+Chart saved to examples/eval_45pct_1.5rr.png
